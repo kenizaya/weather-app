@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Weather App</h1>
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Enter location" id="search">
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="loader"></div>
+
+        <div class="details-container">
+            <div class="main-temp-container">
+                <p class="temp"></p>
+                <span class="location"></span>
+                <span class="weather-description"></span>
+            </div>
+            <div class="extra-details-container">
+                <div class="min"></div>
+                <div class="max"></div>
+                <div class="feels-like"></div>
+                <div class="wind-speed"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright © 2022 <a href="https://github.com/kenizaya/">kenizaya</a>
+    </div>
+</body>
+</html>
